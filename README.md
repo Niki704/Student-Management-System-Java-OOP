@@ -49,17 +49,14 @@ Student <|-- Senior_Student
 ### 2) Encapsulation
 Student data is stored inside classes and modified through methods like `update_StudentInfo()` and `set_GPA()`. This demonstrates controlled access to fields and behavior.
 
-**Example:**  
-`set_GPA()` allows updating GPA while keeping the data within the class.
+**Example:** `set_GPA()` allows updating GPA while keeping the data within the class.
 
 ```mermaid
 flowchart TB
   A[Student Object] --> B[Private Data Fields]
-  B --> C[Methods: update_StudentInfo(), set_GPA()]
+  B --> C["Methods: update_StudentInfo(), set_GPA()"]
   C --> D[Controlled Updates]
 ```
-
----
 
 ### 3) Inheritance
 Specialized classes extend base classes to reuse and expand behavior.
@@ -102,7 +99,7 @@ sequenceDiagram
 
 ---
 
-## Project Structure (based on `Main.java`)
+## Project Structure
 
 Key entities modeled:
 
@@ -162,4 +159,13 @@ Open the project in any Java IDE (e.g., IntelliJ IDEA, Eclipse, NetBeans), then 
 
 ---
 
-If you'd like, I can also add screenshots, contribution guidelines, or a more detailed class diagram once you share more files.
+## Notes from Author:
+This is my original work and code is fully hand written. you are free to modify and use.
+
+Refer my presentation file for more information about the project. 
+
+If you're using this for an acedemic use, files in the simplified view folder are easy to explain
+
+Licenced on CC & Open Source
+
+Niki704
