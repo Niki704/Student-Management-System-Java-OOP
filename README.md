@@ -166,6 +166,8 @@ Refer my presentation file for more information about the project.
 
 If you're using this for an acedemic use, files in the simplified view folder are easy to explain
 
-Licenced on CC & Open Source
+## License
+
+This project is licensed under the [CC0-1.0 License](LICENSE).
 
 Niki704
